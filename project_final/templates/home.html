@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+   <style>
+      .container {
+      position: relative;
+      width: 50%;
+      max-width: 200px;
+      }
+      .container img {
+      width: 100%;
+      height: auto;
+      }
+      .can:hover{
+      background-color: transparent;
+      width:100%;
+      }
+   </style>
+   <head>
+      <title>Hello Page</title>
+   </head>
+   <body>
+      <p>
+      <p style="font-size:20px"><strong>Hello {{ name }}</strong></p>
+      <p style="font-size:20px"><strong>Choose the bike company</strong></p>
+      <table align = "center">
+      <div class="container">
+         <a  href="/bajaj"  ><img src="/static/bajaj.jpg"  class="can">
+         </a>
+      </div>
+      <div class="container">
+         <a  href="/yamaha" ><img src="/static/yamaha.jpg"  class="can">
+         </a>
+      </div>
+      <div class="container">
+         <a  href="/honda"  ><img src="/static/honda.jpg"  class="can">
+         </a>
+      </div>
+      <div class="container">
+         <a  href="/suzuki" ><img src="/static/suzuki.jpg"  class="can">
+         </a>
+      </div>
+      </p>
+   </body>
+   </html

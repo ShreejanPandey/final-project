@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+   <style>
+      .container {
+      position: relative;
+      width: 50%;
+      max-width: 200px;
+      }
+      .container img {
+      width: 100%;
+      height: auto;
+      }
+      .container .btn {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      background-color: #555;
+      color: white;
+      font-size: 16px;
+      padding: 12px 24px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      text-align: center;
+      }
+      .container .btn:hover {
+      background-color: transparent;
+      }
+   </style>
+   <head>
+      <title>Hello Page</title>
+   </head>
+   <body>
+      <p style="font-size:20px"><strong>Choose the bike</strong></p>
+      <form method="POST" action="main" >
+         <div class="container">
+            <img src="/static/h1.jpg"  style="width:100%">
+            <input type="submit" class="btn" name="all" value="h1" checked>
+         </div>
+         <div class="container">
+            <img src="/static/h2.jpg"  style="width:100%">
+            <input type="submit" class="btn" name="all" value="h2">
+         </div>
+         <div class="container">
+            <img src="/static/h3.jpg"  style="width:100%">
+            <input type="submit" class="btn" name="all" value="h3">
+         </div>
+         <div class="container">
+            <img src="/static/h4.jpg"  style="width:100%">
+            <input type="submit" class="btn" name="all" value="h4">
+         </div>
+      </form>
+   </body>
+   </html
